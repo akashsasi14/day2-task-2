@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    
+  }
+  
+  .container {
+    max-width: 800px;
+    height: 10cm;
+    margin: 20px auto;
+    padding: 20px;
+    background: rgb(185,34,195);
+    background: radial-gradient(circle, rgba(185,34,195,0.8071603641456583) 0%, rgba(45,241,253,0.9472163865546218) 90%);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #ca2292;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #f0451a;
+  }
+  
+  #definition {
+    margin-top: 20px;
+  }
+  
+  #definition b {
+    color: #e40f0f;
+    text-shadow: black;
+  }
+  
+  #synonyms,
+  #audio {
+    font-style: italic;
+  }
+  
+  #audio audio {
+    margin-top: 10px;
+  }
